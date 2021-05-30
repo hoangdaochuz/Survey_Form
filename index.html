@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form submit information user</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/img/anh_nen.jpg">
+</head>
+<body>
+    <div id="main">
+        <div class="form">
+            <div class="title-form">
+                <h1>freeCodeCamp Survey Form</h1>
+                <p>Thank you for taking the time to help us improve the platform</p>
+            </div>
+            <div class="content-form">
+                <form action="">
+                    <div class="form-name form-group">
+                        <p>Name</p>
+                        <input class="form-control" type="name" placeholder="Enter your name" required name="" id="name">
+                    </div>
+                    <div class="form-email form-group">
+                        <p>Email</p>
+                        <input class="form-control" type="email" placeholder="Enter your email" required name="" id="email">
+                    </div>
+                    <div class="form-age form-group">
+                        <p>Age (optional) </p>
+                        <input class="form-control" type="age" placeholder="Age" required name="" id="age">
+                    </div>
+                    <div class="desc-current-role form-group">
+                        <p>Which option best describes your current role?</p>
+                        <input class="form-control" type="text" placeholder="Describes current role" required name="" id="">
+                    </div>
+                    <div class="form-radio form-group">
+                        <p>Would you recommend freeCodeCamp to a friend?</p>
+                        
+                        <label><input class="input-radio" type="radio" id="Definitely" name="role" value="Definitely">Definitely</label><br>
+                        
+                        <label><input class="input-radio" type="radio" id="Maybe" name="role" value="Maybe">Maybe</label><br>
+                        
+                        <label><input class="input-radio" type="radio" id="Not sure" name="role" value="Not sure">Not sure</label><br>
+                    </div>
+                    <div class="favorite form-group">
+                        <p>What is your favorite feature of freeCodeCamp?</p>
+                        <input class="form-control" type="text" placeholder="Describes your option" required name="" id="">
+                    </div>
+                    <div class="form-check-box form-group">
+                        <p>What would you like to see improved? (Check all that apply)</p>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Front-end Projects" value="yes">Front-end Projects</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Back-end Projects" value="yes">Back-end Projects</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Data Visualization" value="yes">Data Visualization</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Challenges" value="yes">Challenges</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Open Source Community" value="yes">Open Source Community</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Gitter help rooms" value="yes">Gitter help rooms</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Videos" value="yes">Videos</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="City Meetups" value="yes">City Meetups</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Wiki" value="yes">Wiki</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Forum" value="yes">Forum</label><br>
+                        
+                        <label><input class="input-checkbox" type="checkbox"  name="Additional Courses" value="yes">Additional Courses</label><br>
+                    </div>
+                    <div class="text-coment form-group">
+                        <p>Any comments or suggestions?</p>
+                        <textarea class="input-textarea" name="comment" id="comment" placeholder="Enter your comment here" ></textarea>
+                    </div>
+                    <button class="btn-submit" type="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

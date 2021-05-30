@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+#main{
+
+    background-image: linear-gradient(0,rgba(48, 42, 236, 0.5),rgb(110, 105, 231)), url(/assets/img/anh_nen.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+#main .form{
+    width: 720px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+#main .title-form{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+#main .title-form h1{
+    font-weight: 400;
+    color: white;
+    line-height: 1.6;
+    opacity: 0.9;
+    font-size: 32px;
+}
+#main .title-form p{
+    color: white;
+    line-height: 1.6;
+    opacity: 0.9;
+    font-size: 18px;
+}
+#main .content-form{
+    color:white;
+    opacity: 0.9;
+    background-color: rgb(65, 61, 74);
+    border-radius: 5px;
+    padding: 40px;
+    width: 100%;
+}
+.content-form .form-group{
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 12px;
+    border: 1px;
+    border-radius: 4px;
+    outline: none;
+    line-height: 16px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+label{
+    margin-bottom: 8px;
+}
+.input-textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    outline: none;
+    resize: vertical;
+}
+.btn-submit{
+    display: block;
+    width: 100%;
+    min-height: 46px;
+    background-color: green;
+    font-size: 18px;
+    color: white;
+    border: 2px;
+    border-radius: 4px;
+}
+.btn-submit:hover{
+    cursor: pointer;
+   background-color: #ccc;
+    color: black;
+}
+.input-radio, .input-checkbox{
+    display: inline-block;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+textarea::placeholder,
+input::placeholder{
+    font-size: 16px;
+}
